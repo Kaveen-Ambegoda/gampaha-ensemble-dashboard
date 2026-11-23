@@ -12,7 +12,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Gampaha Weather: Ensemble Learning", page_icon="🌦️", layout="wide")
 
-ART = Path(__file__).parent / "artifacts"
+ART = Path(__file__).parent / "Artifacts"
 FAMILY_COLORS = {"Baseline": "#9aa0a6", "Bagging": "#2e7d32", "Boosting": "#e65100",
                  "Neural net": "#6a1b9a", "Hybrid": "#0277bd", "Stacking": "#c62828"}
 
